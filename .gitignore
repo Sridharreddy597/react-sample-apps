@@ -20,5 +20,49 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
 package-lock.json
+
+# Operating System Files
+*.DS_Store
+Thumbs.db
+
+# Build Files #
+bin
+target
+build/
+.gradle
+*/target/*
+
+# Eclipse Project Files #
+.classpath
+.project
+.settings
+.metadata
+.metadata/*
+.recommenders/*
+*/.tern-project
+
+
+# STS Project Files #
+.springBeans
+
+# IntelliJ IDEA Files #
+*.iml
+*.ipr
+*.iws
+*.idea
+
+# NetBeans Project Files #
+nbactions.xml
+nb-configuration.xml
+
+# Spring Roo
+log.roo
+
+# PMD
+.pmd
+
+# Node
+node_modules
+bundle.js
+npm-debug.log
