@@ -1,14 +1,9 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     count: this.props.counter.value,
-  //     tags: ["tag1", "tag2", "tag3"]
-  //   };
-  //   this.handleIncrement = this.handleIncrement.bind(this);
-  // }
+  constructor(props) {
+    super(props);
+  }
 
   // renderTags() {
   //   if (this.state.tags.length === 0) return <p>No Tags !</p>;
@@ -22,7 +17,7 @@ class Counter extends Component {
   // }
 
   render() {
-    //console.log(this.props.id);
+    //console.log(this.props);
     return (
       <div>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
